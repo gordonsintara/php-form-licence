@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
         <link rel="stylesheet" href="main.css">
+        <script src="app.js" async defer></script>
 
     </head>
    

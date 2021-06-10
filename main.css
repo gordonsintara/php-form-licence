@@ -4,7 +4,9 @@
 }
 
 body{
-    background-color: #271b91;
+    background-image: url("parking.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,20 +15,21 @@ body{
 }
 
 .container{
-    margin-top: 10px;
-    width:600px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:800px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.719);
     
     max-width:100%;
     border-radius: 10px;
 
 }
 .form{
-    margin-top:10px;
+    margin-top:0px;
 }
 form input{
     border: 2px solid #f0f0f0;
@@ -39,7 +42,6 @@ form input{
 
 .form-control.success input{
     border-color: #5eb425;
-    font-size: 17px;
 }
 
 .form-control.error input{
@@ -100,7 +102,7 @@ form input:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     color: #5eb425;
-    font-size: 30px;
+    font-size: 35px;
     
 }
 .form-control i {
@@ -115,4 +117,9 @@ form input:hover{
     position: absolute;
     bottom: 0;
     left:0;
+}
+
+.check{
+    text-align: center;
+    color: #47a10b;
 }
