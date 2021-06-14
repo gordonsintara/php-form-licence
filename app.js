@@ -1,7 +1,8 @@
 const form = document.getElementById('form');
 const id = document.getElementById('id_number');
 
-form.addEventListener('submit', (e) =>{
+form.addEventListener('button', (e) =>{
+    console.log("sent");
     e.preventDefault();
     checkInputs();
 });
